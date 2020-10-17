@@ -6,19 +6,19 @@
 
   <!-- current node -->
   <v-row>
-    <v-col cols="6" offset="3">
+    <v-col cols="4" offset="4">
       <Node @back="back" @choice1="choice1" @choice2="choice2" details :init="init" v-bind="currentNode"/>
     </v-col>
   </v-row>
 
   <!-- child nodes -->
   <v-row>
-    <v-col cols="6">
-      <Node v-bind="childNode1"/>
+    <v-col cols="4" offset="2">
+      <Node class="text--disabled" v-bind="childNode1"/>
     </v-col>
 
-    <v-col cols="6">
-      <Node v-bind="childNode2"/>
+    <v-col cols="4">
+      <Node class="text--disabled" v-bind="childNode2"/>
     </v-col>
   </v-row>
 </v-container>
