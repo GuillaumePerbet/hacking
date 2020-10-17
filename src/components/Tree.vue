@@ -5,7 +5,7 @@
   <!-- current node -->
   <v-row>
     <v-col cols="6" offset="3">
-      <Node details v-bind="currentNode"/>
+      <Node @choice1="choice1" @choice2="choice2" details v-bind="currentNode"/>
     </v-col>
   </v-row>
 
@@ -47,11 +47,16 @@ export default {
   },
 
   methods: {
-    
-  },
+    choice1(){
+      this.updateNodes( this.childNode1.idElement )
+    },
 
-  created: function(){
-    axios.get('http://localhost/hacking/element.php?id='+this.currentId)
+    choice2(){
+      this.updateNodes( this.childNode2.idElement )
+    },
+
+    updateNodes( id ){
+    axios.get('http://localhost/hacking/element.php?id='+id)
     .then(response => {
       this.currentNode=response.data
       axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant1)
@@ -63,6 +68,13 @@ export default {
         this.childNode2=response.data
       })
     })
+    }
+  },
+
+  created: function(){
+
+    this.updateNodes( this.currentId )
+    
   }
 }
 </script>

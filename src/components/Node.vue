@@ -6,8 +6,8 @@
     <v-card-text v-if="details">{{ question }}</v-card-text>
     <!-- anwers -->
     <v-card-actions v-if="details">
-      <v-btn >{{ reponse1 }}</v-btn>
-      <v-btn >{{ reponse2 }}</v-btn>
+      <v-btn @click="chooseAnswer1">{{ reponse1 }}</v-btn>
+      <v-btn @click="chooseAnswer2">{{ reponse2 }}</v-btn>
     </v-card-actions>
 </v-card>
 </template>
@@ -29,6 +29,17 @@
     }),
 
     computed: {
+    },
+
+    methods:{
+      chooseAnswer1(){
+        this.$emit('choice1' )
+
+      },
+
+      chooseAnswer2(){
+        this.$emit('choice2' )
+      }
     }
   }
 </script>
