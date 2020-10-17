@@ -7,7 +7,7 @@
   <!-- current node -->
   <v-row>
     <v-col cols="6" offset="3">
-      <Node @choice1="choice1" @choice2="choice2" details v-bind="currentNode"/>
+      <Node @back="back" @choice1="choice1" @choice2="choice2" details v-bind="currentNode"/>
     </v-col>
   </v-row>
 
@@ -41,6 +41,7 @@ export default {
   data: () => ({
     breadcrumb: [{text: "Verrou de sécurité"}],
     currentId: 1,
+    previousId: 0,
     currentNode: new Object,
     childNode1: new Object,
     childNode2: new Object,
@@ -52,13 +53,20 @@ export default {
 
   methods: {
     choice1(){
+      this.previousId = this.currentNode.idElement
       this.updateNodes( this.childNode1.idElement )
       this.breadcrumb.push({ text: this.childNode1.nomElement})
     },
 
     choice2(){
+      this.previousId = this.currentNode.idElement
       this.updateNodes( this.childNode2.idElement )
       this.breadcrumb.push({ text: this.childNode2.nomElement})
+    },
+
+    back(){
+      this.breadcrumb.pop()
+      this.updateNodes( this.previousId )
     },
 
     updateNodes( id ){
@@ -80,7 +88,6 @@ export default {
   created: function(){
 
     this.updateNodes( this.currentId )
-    // this.breadcrumb = [this.currentNode.nomElement]
     
   }
 }

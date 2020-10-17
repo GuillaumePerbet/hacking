@@ -1,7 +1,7 @@
 <template>
 <v-card>
     <!-- return button -->
-    <v-btn v-if="details" class="float-right ma-2" elevation="2" icon><v-icon>mdi-undo</v-icon></v-btn>
+    <v-btn @click="back" v-if="details" class="float-right ma-2" elevation="2" icon><v-icon>mdi-undo</v-icon></v-btn>
     <!-- title -->
     <v-card-title>{{ nomElement }}</v-card-title>
     <!-- question -->
@@ -35,12 +35,16 @@
 
     methods:{
       chooseAnswer1(){
-        this.$emit('choice1' )
+        this.$emit('choice1')
 
       },
 
       chooseAnswer2(){
-        this.$emit('choice2' )
+        this.$emit('choice2')
+      },
+
+      back(){
+        this.$emit('back')
       }
     }
   }
