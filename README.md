@@ -31,3 +31,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## To Do List
+data et props
+gérer comportement Node
+breadcrumb avec chemin parcouru
