@@ -1,5 +1,7 @@
 <template>
 <v-card>
+    <!-- return button -->
+    <v-btn v-if="details" class="float-right ma-2" elevation="2" icon><v-icon>mdi-undo</v-icon></v-btn>
     <!-- title -->
     <v-card-title>{{ nomElement }}</v-card-title>
     <!-- question -->
