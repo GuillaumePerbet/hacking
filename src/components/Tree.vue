@@ -1,12 +1,6 @@
 <template>
 <section id="tree">
 <v-container>
-  <!-- parent node -->
-  <v-row>
-    <v-col cols="6" offset="3">
-      <Node v-bind="parentNode"/>
-    </v-col>
-  </v-row>
 
   <!-- current node -->
   <v-row>
@@ -44,7 +38,6 @@ export default {
     breadcrumb: [0,1],
     currentId: 1,
     currentNode: new Object,
-    parentNode: new Object,
     childNode1: new Object,
     childNode2: new Object,
   }),
