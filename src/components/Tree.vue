@@ -31,6 +31,7 @@
 
 <script>
 import Node from './Node'
+import axios from 'axios'
 
 export default {
   name: 'Tree',
@@ -49,27 +50,26 @@ export default {
   }),
 
   computed: {
+
   },
 
   methods: {
-    // getElement( id ){
-    //   get node form database
-    // }
+    
   },
 
   created: function(){
-    //get current node form database
-    this.currentNode.nomElement = "Réutilisabilité"
-    this.currentNode.question = "Le stylo est-il réutilisable?"
-    this.currentNode.reponse1 = "OUI"
-    this.currentNode.reponse2 = "NON"
-    this.currentNode.elementSuivant1 = 2
-    this.currentNode.elementSuivant2 = 3
-    //get child nodes
-    this.childNode1.nomElement = "Multidose"
-    this.childNode2.nomElement = "Chargement"
-    //get parent node
-    this.parentNode.nomElement = "Départ"
+    axios.get('http://localhost/hacking/element.php?id='+this.currentId)
+    .then(response => {
+      this.currentNode=response.data
+      axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant1)
+      .then(response => {
+        this.childNode1=response.data
+      })
+      axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant2)
+      .then(response => {
+        this.childNode2=response.data
+      })
+    })
   }
 }
 </script>
