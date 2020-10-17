@@ -7,7 +7,7 @@
   <!-- current node -->
   <v-row>
     <v-col cols="6" offset="3">
-      <Node @back="back" @choice1="choice1" @choice2="choice2" details v-bind="currentNode"/>
+      <Node @back="back" @choice1="choice1" @choice2="choice2" details :init="init" v-bind="currentNode"/>
     </v-col>
   </v-row>
 
@@ -39,34 +39,32 @@ export default {
   },
 
   data: () => ({
-    breadcrumb: [{text: "Verrou de sécurité"}],
-    currentId: 1,
-    previousId: 0,
+    breadcrumb: [ { text: "Verrou de sécurité" , id:"1" } ],
     currentNode: new Object,
     childNode1: new Object,
-    childNode2: new Object,
+    childNode2: new Object
   }),
 
   computed: {
-
+    init(){
+      return this.currentNode.idElement == 1
+    }
   },
 
   methods: {
     choice1(){
-      this.previousId = this.currentNode.idElement
       this.updateNodes( this.childNode1.idElement )
-      this.breadcrumb.push({ text: this.childNode1.nomElement})
+      this.breadcrumb.push({ text: this.childNode1.nomElement , id: this.childNode1.idElement})
     },
 
     choice2(){
-      this.previousId = this.currentNode.idElement
       this.updateNodes( this.childNode2.idElement )
-      this.breadcrumb.push({ text: this.childNode2.nomElement})
+      this.breadcrumb.push({ text: this.childNode2.nomElement , id: this.childNode2.idElement})
     },
 
     back(){
       this.breadcrumb.pop()
-      this.updateNodes( this.previousId )
+      this.updateNodes( this.breadcrumb[this.breadcrumb.length-1].id )
     },
 
     updateNodes( id ){
@@ -74,12 +72,12 @@ export default {
     .then(response => {
       this.currentNode=response.data
       axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant1)
-      .then(response => {
-        this.childNode1=response.data
+      .then(response1 => {
+        this.childNode1=response1.data
       })
       axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant2)
-      .then(response => {
-        this.childNode2=response.data
+      .then(response2 => {
+        this.childNode2=response2.data
       })
     })
     }
@@ -87,7 +85,7 @@ export default {
 
   created: function(){
 
-    this.updateNodes( this.currentId )
+    this.updateNodes( 1 )
     
   }
 }

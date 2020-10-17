@@ -1,7 +1,7 @@
 <template>
 <v-card>
     <!-- return button -->
-    <v-btn @click="back" v-if="details" class="float-right ma-2" elevation="2" icon><v-icon>mdi-undo</v-icon></v-btn>
+    <v-btn @click="back" v-if="details && (!init)" class="float-right ma-2" elevation="2" icon><v-icon>mdi-undo</v-icon></v-btn>
     <!-- title -->
     <v-card-title>{{ nomElement }}</v-card-title>
     <!-- question -->
@@ -20,6 +20,7 @@
 
     props: {
         details: Boolean,
+        init: Boolean,
         nomElement: String,
         question: String,
         reponse1: String,
