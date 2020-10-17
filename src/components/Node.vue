@@ -2,21 +2,15 @@
   <v-container>
     <v-row class="text-center">
       <v-col cols="12">
-        <Node/>
+        
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-import Node from './components/Node'
-
   export default {
-    name: 'Tree',
-
-    components: {
-        Node,
-    },
+    name: 'Node',
 
     data: () => ({
       
