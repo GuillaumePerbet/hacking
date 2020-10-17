@@ -2,6 +2,8 @@
 <section id="tree">
 <v-container>
 
+  <Breadcrumb :items="breadcrumb"/>
+
   <!-- current node -->
   <v-row>
     <v-col cols="6" offset="3">
@@ -25,6 +27,7 @@
 
 <script>
 import Node from './Node'
+import Breadcrumb from './Breadcrumb'
 import axios from 'axios'
 
 export default {
@@ -32,10 +35,11 @@ export default {
 
   components: {
       Node,
+      Breadcrumb
   },
 
   data: () => ({
-    breadcrumb: [0,1],
+    breadcrumb: [{text: "Verrou de sécurité"}],
     currentId: 1,
     currentNode: new Object,
     childNode1: new Object,
@@ -49,10 +53,12 @@ export default {
   methods: {
     choice1(){
       this.updateNodes( this.childNode1.idElement )
+      this.breadcrumb.push({ text: this.childNode1.nomElement})
     },
 
     choice2(){
       this.updateNodes( this.childNode2.idElement )
+      this.breadcrumb.push({ text: this.childNode2.nomElement})
     },
 
     updateNodes( id ){
@@ -74,6 +80,7 @@ export default {
   created: function(){
 
     this.updateNodes( this.currentId )
+    // this.breadcrumb = [this.currentNode.nomElement]
     
   }
 }
