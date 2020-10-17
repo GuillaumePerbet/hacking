@@ -1,15 +1,14 @@
 <template>
-  <v-container>
-    <v-row class="text-center">
-      <v-col cols="12">
-        <Node/>
-      </v-col>
-    </v-row>
-  </v-container>
+  <section id="tree">
+
+    <!-- current node -->
+    <Node :id="currentNode"/>
+
+  </section>
 </template>
 
 <script>
-import Node from './components/Node'
+import Node from './Node'
 
   export default {
     name: 'Tree',
@@ -19,7 +18,8 @@ import Node from './components/Node'
     },
 
     data: () => ({
-      
+      breadcrumb: [1],
+      currentNode: 1,
     }),
   }
 </script>
