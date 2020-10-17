@@ -1,37 +1,15 @@
 <template>
-  <v-container>
-
-    <!-- current node -->
-    <v-row>
-      <v-col cols="6" offset="3">
-        <v-card>
-            <!-- title -->
-            <v-card-title>{{ title }}</v-card-title>
-            <!-- question -->
-            <v-card-text>{{ question }}</v-card-text>
-            <!-- anwers -->
-            <v-card-actions>
-                <v-btn v-for="(answer,index) in answers" :key="index">{{ answer }}</v-btn>
-            </v-card-actions>
-        </v-card>
-      </v-col>
-    </v-row>
-
-    <!-- child nodes -->
-    <v-row>
-      <v-col cols="6">
-        
-      </v-col>
-
-      <v-col cols="6">
-        
-      </v-col>
-    </v-row>
-    
-
-  </v-container>
-
-
+<v-card>
+    <!-- title -->
+    <v-card-title>{{ nomElement }}</v-card-title>
+    <!-- question -->
+    <v-card-text v-if="details">{{ question }}</v-card-text>
+    <!-- anwers -->
+    <v-card-actions v-if="details">
+      <v-btn >{{ reponse1 }}</v-btn>
+      <v-btn >{{ reponse2 }}</v-btn>
+    </v-card-actions>
+</v-card>
 </template>
 
 <script>
@@ -39,7 +17,11 @@
     name: 'Node',
 
     props: {
-        id: Number
+        details: Boolean,
+        nomElement: String,
+        question: String,
+        reponse1: String,
+        reponse2: String
     },
 
     data: () => ({
@@ -47,17 +29,6 @@
     }),
 
     computed: {
-        title(){
-            return "Réutilisabilité"
-        },
-
-        question(){
-            return "Le stylo est-il réutilisable?"
-        },
-
-        answers(){
-            return ["oui","non"]
-        }
     }
   }
 </script>
