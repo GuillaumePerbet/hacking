@@ -21,6 +21,16 @@
       <Node v-if="childNode2.idElement" class="text--disabled" v-bind="childNode2"/>
     </v-col>
   </v-row>
+
+  <!-- errors -->
+  <v-container v-if="finish">
+    <v-row><v-col><h2>Erreurs récontrées par les utilisateurs</h2></v-col></v-row>
+    <v-row v-for="(error,index) in errors" :key="index">
+      <v-col v-if="error.textErreur">
+        <v-banner>{{error.textErreur}}</v-banner>
+      </v-col>
+    </v-row>
+  </v-container>
 </v-container>
 </section>
 </template>
