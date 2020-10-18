@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="481.89px" height="198.425px" viewBox="0 0 481.89 198.425" enable-background="new 0 0 481.89 198.425"
+	 xml:space="preserve">
+<g id="Calque_1">
+	<path d="M410.118,73.697"/>
+	<path fill="#ED1C24" stroke="#231F20" stroke-miterlimit="10" d="M419.315,71.937c-0.386,0.81-0.609,0.81-1.87,1.761h-7.327v38.728
+		h7.327c1.339,0.537,1.417,0.725,1.87,1.761c0.413,0.946,1.87-0.728,1.87-1.761V73.697C421.186,72.665,419.76,71.004,419.315,71.937
+		z"/>
+</g>
+<g id="Calque_2">
+	<rect x="368.147" y="23.262" fill="none" width="95.009" height="31.454"/>
+	<text transform="matrix(1 0 0 1 395.6724 30.2822)"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Bouchon </tspan><tspan x="-7.564" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">déclencheur</tspan></text>
+	<g>
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="415.593,82.292 414.287,79.961 412.98,77.63 
+			415.652,77.664 418.324,77.698 416.958,79.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="415.652" y1="77.664" x2="415.652" y2="47.815"/>
+	</g>
+</g>
+</svg>
