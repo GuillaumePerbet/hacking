@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="481.89px" height="198.425px" viewBox="0 0 481.89 198.425" enable-background="new 0 0 481.89 198.425"
+	 xml:space="preserve">
+<g id="stylo_complet" display="none">
+</g>
+<g id="bouton_déclencheur" display="none">
+	<path display="inline" fill="#ED1C24" stroke="#231F20" stroke-miterlimit="10" d="M419.315,71.937
+		c-0.386,0.81-0.609,0.81-1.87,1.761h-7.327v38.728h7.327c1.339,0.537,1.417,0.725,1.87,1.761c0.413,0.946,1.87-0.728,1.87-1.761
+		V73.697C421.186,72.665,419.76,71.004,419.315,71.937z"/>
+	<rect x="368.147" y="23.262" display="inline" fill="none" width="95.009" height="31.454"/>
+	<text transform="matrix(1 0 0 1 399.1597 30.2822)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Bouton</tspan><tspan x="-11.052" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">déclencheur</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="415.593,82.292 414.287,79.961 412.98,77.63 
+			415.652,77.664 418.324,77.698 416.958,79.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="415.652" y1="77.664" x2="415.652" y2="47.815"/>
+	</g>
+</g>
+<g id="bouchon_protection">
+	
+		<rect x="410.118" y="70.026" opacity="0.4" fill="#BCBEC0" stroke="#231F20" stroke-miterlimit="10" width="26.228" height="45.966"/>
+	<rect x="410.118" y="70.026" fill="none" stroke="#231F20" stroke-miterlimit="10" width="26.228" height="45.966"/>
+</g>
+<g id="base_étroite" display="none">
+	<path display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M192.945,70.026c-2.853,0-4.827,4.825-4.827,4.825v36.314c0,0,2.168,4.826,4.827,4.826s217.173,0,217.173,0V70.026
+		C410.118,70.026,195.798,70.026,192.945,70.026z"/>
+	<polyline display="inline" fill="none" points="424.52,70.026 424.52,115.992 200.007,115.992 	"/>
+	<rect x="304.105" y="151.372" display="inline" fill="none" width="95.01" height="31.454"/>
+	
+		<text transform="matrix(1 0 0 1 341.1387 158.3926)" display="inline" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Base</text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="351.67,115.992 352.976,118.323 354.282,120.654 
+			351.61,120.62 348.939,120.586 350.305,118.289 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="351.61" y1="120.62" x2="351.61" y2="144.911"/>
+	</g>
+	<rect x="411.975" y="95.333" display="inline" fill="none" width="95.01" height="17.381"/>
+	<text transform="matrix(1 0 0 1 442.9297 103.1328)" display="inline" font-family="'BwModelica-Medium'" font-size="10">étroite</text>
+	
+		<polygon display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		328.718,108.867 204.859,108.867 204.859,77.151 260.289,77.151 328.718,77.151 	"/>
+	
+		<path display="inline" fill="#E6E7E8" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M263.328,77.151h65.391v31.716h-74.169c0,0,3.08-9.819,1.812-15.949C255.213,85.198,258.263,81.219,263.328,77.151z"/>
+	
+		<rect x="239.172" y="82.102" display="inline" fill="none" stroke="#231F20" stroke-width="0.8273" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="28.996" height="10.613"/>
+	<g display="inline">
+		
+			<line fill="none" stroke="#231F20" stroke-width="1.0268" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="213.181" y1="103.856" x2="315.228" y2="103.856"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="315.228" y1="103.856" x2="315.228" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="213.181" y1="103.856" x2="213.181" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="264.204" y1="103.856" x2="264.204" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="238.853" y1="103.856" x2="238.853" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="226.408" y1="103.856" x2="226.408" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="252.026" y1="103.856" x2="252.026" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="277.213" y1="103.856" x2="277.213" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="303.263" y1="103.856" x2="303.263" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="289.734" y1="103.856" x2="289.734" y2="95.573"/>
+	</g>
+	<rect x="174.994" y="23.262" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 205.3179 30.2822)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Fenêtre</tspan><tspan x="-25.461" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">indicateur injection</tspan><tspan x="-7.475" y="21.6" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">de solution</tspan></text>
+	<g display="inline">
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="231.808" y1="54.728" x2="247.982" y2="82.832"/>
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="249.686,85.906 247.416,84.497 245.145,83.089 
+			247.5,81.826 249.855,80.564 249.77,83.235 		"/>
+	</g>
+</g>
+<g id="base_large" display="none">
+	<g display="inline">
+		<polygon fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			372.856,62.821 328.591,70.484 192.817,70.484 187.99,75.31 187.99,111.625 192.817,116.45 328.591,116.45 372.856,140.714 
+			409.99,140.714 409.99,116.45 409.99,70.484 409.99,62.821 		"/>
+		<rect x="409.975" y="95.333" fill="none" width="95.01" height="17.381"/>
+		<text transform="matrix(1 0 0 1 443.5742 103.1328)" font-family="'BwModelica-Medium'" font-size="10">Large</text>
+	</g>
+	<rect x="304.105" y="151.372" display="inline" fill="none" width="95.01" height="31.454"/>
+	
+		<text transform="matrix(1 0 0 1 341.1387 158.3926)" display="inline" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Base</text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="351.67,115.992 352.976,118.323 354.282,120.654 
+			351.61,120.62 348.939,120.586 350.305,118.289 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="351.61" y1="120.62" x2="351.61" y2="144.911"/>
+	</g>
+	
+		<polygon display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+		328.718,108.867 204.859,108.867 204.859,77.151 260.289,77.151 328.718,77.151 	"/>
+	
+		<path display="inline" fill="#E6E7E8" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M263.328,77.151h65.391v31.716h-74.169c0,0,3.08-9.819,1.812-15.949C255.213,85.198,258.263,81.219,263.328,77.151z"/>
+	
+		<rect x="239.172" y="82.102" display="inline" fill="none" stroke="#231F20" stroke-width="0.8273" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="28.996" height="10.613"/>
+	<g display="inline">
+		
+			<line fill="none" stroke="#231F20" stroke-width="1.0268" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="213.181" y1="103.856" x2="315.228" y2="103.856"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="315.228" y1="103.856" x2="315.228" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="213.181" y1="103.856" x2="213.181" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="264.204" y1="103.856" x2="264.204" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="238.853" y1="103.856" x2="238.853" y2="95.573"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="226.408" y1="103.856" x2="226.408" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="252.026" y1="103.856" x2="252.026" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="277.213" y1="103.856" x2="277.213" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-width="0.8148" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="303.263" y1="103.856" x2="303.263" y2="98.357"/>
+		
+			<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="289.734" y1="103.856" x2="289.734" y2="95.573"/>
+	</g>
+	<rect x="174.994" y="23.262" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 205.3179 30.2822)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Fenêtre</tspan><tspan x="-25.461" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">indicateur injection</tspan><tspan x="-7.475" y="21.6" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">de solution</tspan></text>
+	<g display="inline">
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="231.808" y1="54.728" x2="247.982" y2="82.832"/>
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="249.686,85.906 247.416,84.497 245.145,83.089 
+			247.5,81.826 249.855,80.564 249.77,83.235 		"/>
+	</g>
+</g>
+<g id="dispositif_inviolabilité" display="none">
+	<path display="inline" fill="#231F20" d="M198.183,115.847c0,1.33-0.851,1.406-1.9,1.406l0,0c-1.049,0-1.9-0.076-1.9-1.406V70.172
+		c0-1.328,0.851-1.406,1.9-1.406l0,0c1.05,0,1.9,0.078,1.9,1.406V115.847z"/>
+	<rect x="188.777" y="151.372" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 215.6318 158.3926)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Dispositif </tspan><tspan x="-8.968" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">d’inviolabilité</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="196.656,118.029 199.245,118.688 201.835,119.346 
+			199.971,121.26 198.107,123.173 197.381,120.602 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="199.832" y1="121.602" x2="234.11" y2="148.133"/>
+	</g>
+</g>
+<g id="molette_dose" display="none">
+	
+		<path display="inline" fill="none" stroke="#231F20" stroke-width="0.7974" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M351.021,97.979c0,1.742-1.636,3.154-3.653,3.154l0,0c-2.018,0-3.654-1.413-3.654-3.154v-8.97c0-1.742,1.636-3.154,3.654-3.154l0,0
+		c2.018,0,3.653,1.413,3.653,3.154V97.979z"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="345.821" y1="93.546" x2="349.03" y2="93.546"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="345.821" y1="90.942" x2="349.03" y2="90.942"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="345.821" y1="95.958" x2="349.03" y2="95.958"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="345.821" y1="88.113" x2="349.03" y2="88.113"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="345.821" y1="98.499" x2="349.03" y2="98.499"/>
+	<rect x="273.137" y="23.262" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 291.1362 30.2822)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Molette dose</tspan><tspan x="11.564" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9"> à régler</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="345.332,83.093 343.15,81.55 340.968,80.008 
+			343.395,78.889 345.821,77.771 345.576,80.432 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="343.395" y1="78.889" x2="330.096" y2="53.195"/>
+	</g>
+</g>
+<g id="aiguille" display="none">
+	
+		<rect x="83.74" y="74.925" display="inline" fill="none" stroke="#231F20" stroke-miterlimit="10" width="104.378" height="35.885"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="187.99" y1="92.702" x2="91.313" y2="92.702"/>
+	<rect x="85.753" y="23.469" display="inline" fill="none" width="95.01" height="13.612"/>
+	
+		<text transform="matrix(1 0 0 1 116.752 30.4888)" display="inline" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Aiguille</text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="133.198,90.292 131.893,87.961 130.586,85.63 
+			133.258,85.664 135.929,85.698 134.563,87.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="133.258" y1="85.664" x2="133.258" y2="37.081"/>
+	</g>
+	<rect x="106.95" y="151.372" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 123.5898 158.3926)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Contenant de </tspan><tspan x="12.861" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">l’aiguille</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="154.597,112.09 155.903,114.421 157.209,116.752 
+			154.538,116.718 151.866,116.684 153.232,114.387 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="154.538" y1="116.718" x2="154.538" y2="145.937"/>
+	</g>
+</g>
+<g id="sans_aiguille" display="none">
+	
+		<rect x="83.74" y="74.925" display="inline" fill="none" stroke="#231F20" stroke-miterlimit="10" width="104.378" height="35.885"/>
+	<rect x="85.753" y="23.469" display="inline" fill="none" width="95.01" height="13.612"/>
+	
+		<text transform="matrix(1 0 0 1 106.1777 30.4888)" display="inline" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Sans aiguille</text>
+	
+		<rect x="83.74" y="74.925" display="inline" fill="none" stroke="#231F20" stroke-miterlimit="10" width="104.378" height="35.885"/>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="133.198,90.292 131.893,87.961 130.586,85.63 
+			133.258,85.664 135.929,85.698 134.563,87.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="133.258" y1="85.664" x2="133.258" y2="37.081"/>
+	</g>
+</g>
+<g id="aiguille_accessible" display="none">
+	<path display="inline" fill="none" stroke="#231F20" stroke-miterlimit="10" d="M83.74,96.935c0,7.428,0,13.875,0,13.875h104.378
+		V74.925H83.74c0,0,0,6.316,0,13.648"/>
+	
+		<line display="inline" fill="none" stroke="#231F20" stroke-width="1.0808" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="187.99" y1="92.702" x2="75.051" y2="92.702"/>
+	<rect x="85.753" y="23.469" display="inline" fill="none" width="95.01" height="13.612"/>
+	
+		<text transform="matrix(1 0 0 1 116.752 30.4888)" display="inline" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Aiguille</text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="133.198,90.292 131.893,87.961 130.586,85.63 
+			133.258,85.664 135.929,85.698 134.563,87.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="133.258" y1="85.664" x2="133.258" y2="37.081"/>
+	</g>
+	<rect x="106.95" y="151.372" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 123.5898 158.3926)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Contenant de </tspan><tspan x="12.861" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">l’aiguille</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="154.597,112.09 155.903,114.421 157.209,116.752 
+			154.538,116.718 151.866,116.684 153.232,114.387 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="154.538" y1="116.718" x2="154.538" y2="145.937"/>
+	</g>
+</g>
+<g id="capuchon" display="none">
+	
+		<path display="inline" fill="#1C75BC" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M85.497,71.196c0,0-2.878,0.261-6.147,2.063c-2.893,0-18.04,0-18.04,0s-3.446,8.871-3.446,19.513
+		c0,11.685,3.446,19.374,3.446,19.374s15.147,0,18.04,0c3.269,1.802,6.147,2.063,6.147,2.063c1.049-3.497,1.454-12.611,1.393-21.506
+		C86.951,83.808,86.546,74.693,85.497,71.196z"/>
+	<rect x="20.875" y="23.262" display="inline" fill="none" width="95.01" height="31.454"/>
+	<text transform="matrix(1 0 0 1 48.4004 30.2822)" display="inline"><tspan x="0" y="0" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">Bouchon</tspan><tspan x="-3.803" y="10.8" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">protecteur</tspan><tspan x="-4.909" y="21.6" fill="#006838" font-family="'BwModelica-Medium'" font-size="9">de l’aiguille</tspan></text>
+	<g display="inline">
+		<polygon fill="#006838" stroke="#006838" stroke-miterlimit="10" points="72.32,90.292 71.015,87.961 69.708,85.63 72.38,85.664 
+			75.051,85.698 73.686,87.995 		"/>
+		<line fill="#006838" stroke="#006838" stroke-miterlimit="10" x1="72.38" y1="85.664" x2="72.38" y2="61.373"/>
+	</g>
+</g>
+</svg>
