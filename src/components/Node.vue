@@ -5,7 +5,7 @@
     <!-- title -->
     <v-card-title>{{ nomElement }}</v-card-title>
     <!-- question -->
-    <v-card-text v-if="details">{{ question }}</v-card-text>
+    <v-card-text class="text-center" v-if="details">{{ question }}</v-card-text>
     <!-- anwers -->
     <v-card-actions v-if="details">
       <v-btn @click="chooseAnswer1">{{ reponse1 }}</v-btn>
