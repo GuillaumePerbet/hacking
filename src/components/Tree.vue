@@ -22,6 +22,8 @@
     </v-col>
   </v-row>
 
+  <Stylo :images="images"/>
+
   <!-- errors -->
   <v-container v-if="finish">
     <v-row><v-col><h2>Erreurs récontrées par les utilisateurs</h2></v-col></v-row>
@@ -38,6 +40,7 @@
 <script>
 import Node from './Node'
 import Breadcrumb from './Breadcrumb'
+import Stylo from './Stylo'
 import axios from 'axios'
 
 export default {
@@ -45,12 +48,14 @@ export default {
 
   components: {
       Node,
-      Breadcrumb
+      Breadcrumb,
+      Stylo
   },
 
   data: () => ({
     breadcrumb: [ { text: "Verrou de sécurité" , id:"1" } ],
     errors: [],
+    images: [],
     currentNode: new Object,
     childNode1: new Object,
     childNode2: new Object,
@@ -68,6 +73,11 @@ export default {
       axios.get('http://localhost/hacking/errors.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse1).then((response)=>{
         this.errors.push(response.data)
       })
+      axios.get('http://localhost/hacking/images.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse1).then((response)=>{
+        if(response.data.image){
+          this.images.push(response.data.image)
+        }
+      })
       if (this.childNode1.idElement){
         this.updateNodes( this.childNode1.idElement )
         this.breadcrumb.push({ text: this.childNode1.nomElement , id: this.childNode1.idElement})
@@ -79,6 +89,11 @@ export default {
     choice2(){
       axios.get('http://localhost/hacking/errors.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse2).then((response)=>{
         this.errors.push(response.data)
+      })
+      axios.get('http://localhost/hacking/images.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse2).then((response)=>{
+        if(response.data.image){
+          this.images.push(response.data.image)
+        }
       })
       if (this.childNode2.idElement){
         this.updateNodes( this.childNode2.idElement )
