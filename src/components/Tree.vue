@@ -6,19 +6,19 @@
 
   <!-- current node -->
   <v-row>
-    <v-col cols="4" offset="4">
-      <Node @back="back" @choice1="choice1" @choice2="choice2" details :init="init" v-bind="currentNode"/>
+    <v-col cols="8" offset="1">
+      <Node v-if="!finish" @back="back" @choice1="choice1" @choice2="choice2" details :init="init" v-bind="currentNode"/>
     </v-col>
   </v-row>
 
   <!-- child nodes -->
   <v-row>
-    <v-col cols="4" offset="2">
-      <Node class="text--disabled" v-bind="childNode1"/>
+    <v-col cols="4">
+      <Node v-if="childNode1.idElement" class="text--disabled" v-bind="childNode1"/>
     </v-col>
 
     <v-col cols="4">
-      <Node class="text--disabled" v-bind="childNode2"/>
+      <Node v-if="childNode2.idElement" class="text--disabled" v-bind="childNode2"/>
     </v-col>
   </v-row>
 </v-container>
@@ -40,9 +40,11 @@ export default {
 
   data: () => ({
     breadcrumb: [ { text: "Verrou de sécurité" , id:"1" } ],
+    errors: [],
     currentNode: new Object,
     childNode1: new Object,
-    childNode2: new Object
+    childNode2: new Object,
+    finish: false
   }),
 
   computed: {
@@ -53,13 +55,27 @@ export default {
 
   methods: {
     choice1(){
-      this.updateNodes( this.childNode1.idElement )
-      this.breadcrumb.push({ text: this.childNode1.nomElement , id: this.childNode1.idElement})
+      axios.get('http://localhost/hacking/errors.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse1).then((response)=>{
+        this.errors.push(response.data)
+      })
+      if (this.childNode1.idElement){
+        this.updateNodes( this.childNode1.idElement )
+        this.breadcrumb.push({ text: this.childNode1.nomElement , id: this.childNode1.idElement})
+      }else{
+        this.finish=true
+      }
     },
 
     choice2(){
-      this.updateNodes( this.childNode2.idElement )
-      this.breadcrumb.push({ text: this.childNode2.nomElement , id: this.childNode2.idElement})
+      axios.get('http://localhost/hacking/errors.php?id='+this.currentNode.idElement+'&answer='+this.currentNode.reponse2).then((response)=>{
+        this.errors.push(response.data)
+      })
+      if (this.childNode2.idElement){
+        this.updateNodes( this.childNode2.idElement )
+        this.breadcrumb.push({ text: this.childNode2.nomElement , id: this.childNode2.idElement})
+      }else{
+        this.finish=true
+      }
     },
 
     back(){
@@ -73,20 +89,26 @@ export default {
       this.currentNode=response.data
       axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant1)
       .then(response1 => {
-        this.childNode1=response1.data
+        if(response1.data.idElement){
+          this.childNode1=response1.data
+        }else{
+          this.childNode1={}
+        }
       })
       axios.get('http://localhost/hacking/element.php?id='+this.currentNode.elementSuivant2)
       .then(response2 => {
-        this.childNode2=response2.data
+        if(response2.data.idElement){
+          this.childNode2=response2.data
+        }else{
+          this.childNode2={}
+        }
       })
     })
     }
   },
 
   created: function(){
-
     this.updateNodes( 1 )
-    
   }
 }
 </script>
